@@ -1,0 +1,71 @@
+/* body {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.load {
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+} */
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.load {
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+  background: blue;
+  color: white;
+  border: 0;
+  border-radius: 25px;
+}
+.load.hide {
+  display: none;
+}
+.joke-text {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 550;
+  font-style: italic;
+}
+.loader.active {
+  margin: 20px auto;
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
